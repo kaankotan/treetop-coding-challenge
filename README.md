@@ -18,30 +18,16 @@ Second Challenge Solution: Please find the "Second Challenge Solution.pdf" in th
 
 ## Installation
 1. Install latest node.js LTS version.
-2. Install Angular CLI with
+2. Install Angular CLI with.
 ``` console
 npm install -g @angular/cli
 ```
-3. Git clone the project and change directory to the project directory
-4. Run
+3. Git clone the project and change directory to the project directory.
+4. Install project's npm dependencies.
+```console
+npm install
+```
+5. Run.
 ```console
 ng serve --open
 ```
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-
