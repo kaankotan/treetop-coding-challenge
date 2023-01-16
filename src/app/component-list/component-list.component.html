@@ -1,0 +1,5 @@
+<div class="main-container">
+  <h3>Component List</h3>
+  <button *ngIf="componentStoreService.components.length > 0" type="button" (click)="componentStoreService.clear()">Clear</button>
+  <div *ngFor="let component of componentStoreService.components">{{component.title}}</div>
+</div>

@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+html, body, app-root {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  font-family: Calibri, Roboto, Arial, SansSerif;
+}
+
+:root {
+  --color-main: #23408E;
+  --color-main-light: #9ba8e0;
+  --color-main-extra-light: #bfc8ee;
+  --color-light: #EDEEFF;
+  --color-secondary: #FF816D;
+  --color-purple: #934696;
+  --color-pink: #DC5787;
+  --color-orange: #FFBB5C;
+  --color-yellow: #F9F871;
+  --color-beige: #CFA716;
+  --color-beige-dark: #847555;
+  --color-beige-light: #FFEFCA;
+  --color-red: #87182C;
+  --color-red-light: #C25059;
+  --color-mint: #8BE8CB;
+  --color-dark: #272731;
+}

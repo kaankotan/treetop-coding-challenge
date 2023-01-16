@@ -1,0 +1,14 @@
+.main-container {
+  display: flex;
+  background: white;
+  height: 100%;
+}
+
+.app-component-selector {
+  flex: 0.4;
+}
+
+.app-component-list {
+  flex: 0.6;
+}
+

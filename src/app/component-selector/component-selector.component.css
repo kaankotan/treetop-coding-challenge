@@ -1,0 +1,88 @@
+.data-list {
+  margin: 0 0 32px 0;
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+.data-list li {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+}
+
+button {
+  cursor: pointer;
+  font-size: 24px;
+  background-color: var(--color-light);
+  border: none;
+  padding: 0;
+  margin: 12px 0 12px 0;
+}
+
+.data-list .secondary-button {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: var(--color-main);
+  padding-left: 16px;
+  padding-right: 16px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
+  transition: box-shadow 0.2s, transform 0.1s;
+  color: white;
+}
+
+.data-list .secondary-button:hover {
+  transform: scale(1.04);
+}
+
+.data-list .secondary-button:active {
+  box-shadow: none;
+}
+
+.data-list .main-button {
+  flex:1;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: stretch;
+  font-size: 24px;
+  background-color: var(--color-main-extra-light);
+  border: none;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.data-list .main-button:hover {
+  background-color: var(--color-main-light);
+}
+
+.data-list button.selected {
+  background-color: var(--color-orange) !important;
+}
+
+.data-list .code {
+  background: var(--color-dark);
+  color: var(--color-light);
+  padding: 16px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+button.selected .code {
+  color: var(--color-orange);
+}
+
+.data-list .title {
+  padding: 16px;
+  text-align: center;
+  width: 100%;
+}
+
+.data-list .description {
+  padding: 16px;
+}
+
+h3 {
+  text-align: center;
+}

@@ -1,0 +1,13 @@
+<div class="main-container">
+  <h3>Component Selector</h3>
+  <ul class="data-list">
+    <li *ngFor="let componentData of data">
+      <button class="main-button" type="button" [class.selected]="componentData === selectedComponent" (click)="onSelect(componentData)">
+        <span class="code">{{componentData.code}}</span>
+        <span class="title">{{componentData.title}}</span>
+      </button>
+      <button class="secondary-button" type="button" (click)="onAdd(componentData)">Add</button>
+    </li>
+  </ul>
+  <app-component-description [component]="selectedComponent"></app-component-description>
+</div>
